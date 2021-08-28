@@ -4,7 +4,7 @@ Old version of my Networking module
 ##Usage
 
 Client:
-```
+```lua
 local Network = Network.new("NetworkName")
 Network:Send("Method", ...)
 ```
@@ -13,7 +13,7 @@ Network:Send("Method", ...)
 NetworkName can be any name you want, it's essentially the name of the Instances, Method is the string that acts like a code for that action.
 
 Server:
-```
+```lua
 local Network = Network.new("NetworkName")
 Network:Listen("Method", Callback)
 ```
